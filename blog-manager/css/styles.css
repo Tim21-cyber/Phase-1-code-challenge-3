@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f0f0f0;
+}
+
+#main-container {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+#post-list div {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#post-list div:hover {
+  background-color: #f9f9f9;
+}
+
+#detail-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}

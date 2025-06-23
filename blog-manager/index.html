@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Blog Manager</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Simple Blog Manager</h1>
+
+  <div id="main-container">
+    <div id="post-list" class="column"></div>
+
+    <div id="post-detail" class="column">
+      <h2>Post Detail</h2>
+      <div id="detail-content"></div>
+    </div>
+  </div>
+
+  <h2>Add New Post</h2>
+  <form id="new-post-form">
+    <input type="text" name="title" placeholder="Title" required>
+    <input type="text" name="author" placeholder="Author" required>
+    <input type="text" name="image" placeholder="Image URL" required>
+    <textarea name="content" placeholder="Content" required></textarea>
+    <button type="submit">Add Post</button>
+  </form>
+
+  <script src="src/index.js"></script>
+</body>
+</html>

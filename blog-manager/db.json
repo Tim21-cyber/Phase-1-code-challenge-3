@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "Second Blog Post",
+      "content": "Here's the second blog post content.",
+      "author": "Bob",
+      "image": "https://www.purplefrog.co.uk/hubfs/blog-files/how_to_get_your_blog_noticed.jpg"
+    },
+    {
+      "title": "First Blog Post",
+      "author": "Jacob",
+      "image": "https://visme.co/blog/wp-content/uploads/2020/09/interactive-blog-post-add-slideshow-presentation.gif",
+      "content": "How to give a good presentation. Qualities of a good presentation.",
+      "id": 3
+    }
+  ]
+}
